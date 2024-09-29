@@ -253,7 +253,7 @@ button:hover {
 
 /* Estilo para el fondo de la página */
 body {
-    background-image: (assets/img/fondo.jpg);
+    background-image: url(assets/img/fondo.jpg);
     background-size: cover;
     font-family: Arial, sans-serif;
 }
