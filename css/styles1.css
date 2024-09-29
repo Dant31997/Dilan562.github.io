@@ -244,7 +244,7 @@ body {
 
 /* Estilo de las secciones */
 section {
-    padding: 20px;
+    padding: 10px;
     margin-top: 70px; /* Ajusta según la altura de la barra de navegación */
     min-height: 400px; /* Asegúrate de que cada sección tenga al menos la altura de la ventana */
     width: 100%;
