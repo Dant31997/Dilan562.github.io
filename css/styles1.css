@@ -42,27 +42,6 @@ html {
     transform-origin: bottom center; /* Ajusta el punto de origen de la transformación */
 }
 
-
-
-/* Estilo para la caja de información */
-.info-box {
-    width: 200px;
-    height: 150px;
-    background-color: #4D60A5; /* Color de la caja */
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    cursor: pointer;
-    margin: 20px;
-    transition: background-color 0.3s;
-}
-
-.info-box:hover {
-    background-color: #3e4c8f; /* Color cuando se pasa el mouse por encima */
-}
-
 /* Estilo para la ventana emergente */
 .popup {
     display: none; /* Oculta la ventana emergente por defecto */
@@ -192,30 +171,6 @@ input, textarea {
     box-sizing: border-box; /* Incluye el padding y el borde en el ancho del campo */
 }
 
-/* Animación del placeholder */
-input::placeholder,
-textarea::placeholder {
-    color: #888;
-    font-style: italic;
-    transition: all 0.3s ease; /* Transición suave */
-    position: absolute;
-    top: 50%; /* Posición inicial centrada verticalmente */
-    left: 12px; /* Posición inicial desde el borde izquierdo */
-    font-size: 18px; /* Tamaño inicial del placeholder */
-    transform: translateY(-50%); /* Centra verticalmente el texto del placeholder */
-}
-
-input:focus::placeholder,
-textarea:focus::placeholder,
-input:not(:placeholder-shown)::placeholder,
-textarea:not(:placeholder-shown)::placeholder {
-    top: 8px; /* Mueve el placeholder hacia la parte superior */
-    left: 8px; /* Mueve el placeholder hacia la izquierda */
-    font-size: 12px; /* Reduce el tamaño del placeholder */
-    opacity: 1; /* Asegura que el placeholder sea visible */
-    transform: translateY(0); /* Ajusta la transformación para una animación más suave */
-}
-
 /* Estilos para el botón */
 button {
     padding: 12px 24px; /* Aumento del padding para el botón */
@@ -231,7 +186,6 @@ button {
 button:hover {
     background-color: #3e4c8f;
 }
-
 
 
 /* Estilo para el fondo de la página */
